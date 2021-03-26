@@ -18,12 +18,28 @@ header {
   margin: 10vh 0vh;
 }
 
+header a {
+  color: green;
+}
+
 main {
-  min-height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
   padding: 0% 3%;
+}
+
+article #newOption {
+  text-decoration: none;
+  color: white;
+  background: green;
+  padding: 2%;
+  border-radius: 10px;
 }
 
 footer {
   min-height: 10vh;
+  margin-top: 10%;
 }
 /*# sourceMappingURL=selection.css.map */

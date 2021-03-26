@@ -15,14 +15,31 @@ header {
     grid-template-columns: 2fr 4fr 2fr;
     place-items: center;
     margin: 10vh 0vh;
+
+    a {
+        color: green;
+    }
 }
 
 main {
-    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
     padding: 0% 3%;
+}
+
+article {
+
+    #newOption {
+        text-decoration: none;
+        color: white;
+        background: green;
+        padding: 2%;
+        border-radius: 10px;
+    }
 }
 
 footer {
     min-height: 10vh;
+    margin-top: 10%;
 }
-
