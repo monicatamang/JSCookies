@@ -22,3 +22,14 @@ if (selection === `Pancham`) {
 } else if (selection === `Umbreon`) {
     pokemonImage.setAttribute(`src`, `/images/umbreon.jpg`);
 }
+
+// Creating a new a tag that allows users to select a new pokemon from the home page
+var newSelection = document.createElement(`a`);
+newSelection.setAttribute(`href`, `/index.html`);
+newSelection.innerText = `Select New Option`;
+selectionContainer.append(newSelection);
+
+// Creating a conditional where the users' cookies will be removed if they choose to select a new pokemon
+if (newSelection) {
+    Cookies.remove(`selection`);
+}
