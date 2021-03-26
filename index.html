@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <img src="/images/pokemonLogo.jpg" alt="The official Pokemon logo in yellow, bold text with a blue outline on each letter.">
+        <div id="menuSpacer"></div>
+        <a href="/pages/selection.html">Checkout</a>
+    </header>
+    <main id="pokemonMenuPage">
+        <h1>Choose a Pokemon</h1>
+        <article class="pokemon" onclick="selectPokemon(`Pancham`)">
+            <img src="/images/pancham.jpg" alt="A panda-like Pokémon holding a small, green leaf in its mouth while grinning and standing on two legs with its paws on its hips. It primarily has black-coloured ears, eyes, nose, body, and feet where its legs are a lighter shade compared to its body. Pancham also has a beige head and round tail of the same colour as its head.">
+            <h1>Pancham</h1>
+        </article>
+        <article class="pokemon" onclick="selectPokemon(`Charmander`)">
+            <img src="/images/charmander.jpg" alt="A salamander-like Pokémon standing on two legs that has an orange body, blue eyes and a flame at the end of its tail, happily smiling with its mouth opened and white teeth showing. Charmander also has a beige-coloured belly with feet that has white, sharp nails.">
+            <h1>Charmander</h1>
+        </article>
+        <article class="pokemon" onclick="selectPokemon(`Umbreon`)">
+            <img src="/images/umbreon.jpg" alt="A cat-like Pokémon standing on all four legs that has a black body with red eyes. Umbreon has five yellow, ring-shaped circles on its forehead and one on each leg. It also has yellow bands on each ear and tail.">
+            <h1>Umbreon</h1>
+        </article>
+    </main>
+    <footer>
+        <p>Gotta Catch 'Em All</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src='/js/app.js'></script>
+</body>
+</html>

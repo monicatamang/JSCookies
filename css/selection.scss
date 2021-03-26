@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    place-items: center;
+    margin: 10vh 0vh;
+}
+
+main {
+    min-height: 80vh;
+    padding: 0% 3%;
+}
+
+footer {
+    min-height: 10vh;
+}
+

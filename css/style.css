@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 4fr 2fr;
+      grid-template-columns: 2fr 4fr 2fr;
+  place-items: center;
+}
+
+main {
+  min-height: 70vh;
+}
+
+main h1 {
+  margin: 3% 0% 5% 0%;
+}
+
+main .pokemon {
+  display: inline-block;
+  margin: 0% 5%;
+  cursor: pointer;
+}
+
+main .pokemon img {
+  width: 15vw;
+}
+
+main .pokemon h1 {
+  margin-top: 5vh;
+}
+
+footer {
+  min-height: 10vh;
+}
+/*# sourceMappingURL=style.css.map */
